@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar"
 import Button from "./components/Button"
 import Hero from "./components/Hero"
-
+import Ticker from "./components/Ticker"
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <NavBar />
       <Button />
       <Hero />
+      <Ticker />
     </>
   )
 }

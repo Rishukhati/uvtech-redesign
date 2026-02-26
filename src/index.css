@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-ink: #0D1B2A;
+    --color-saffron: #E8650A;
+    --color-cream: #FAF8F4;
+    --color-mist: #8FA5BB;
+    --color-ink-soft: #4A6582;
+    }
+    @keyframes tickerScroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
