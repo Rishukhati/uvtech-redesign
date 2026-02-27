@@ -6,7 +6,7 @@ function Hero() {
         <section className="px-16 pb-[80px] mt-15 grid grid-cols-[1fr_480px] items-start gap-16">
 
             {/* LEFT */}
-            <div className="">
+            <div>
                 <div className="mb-7 flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-saffron animate-pulse"></div>
                     <span className="font-['DM_Mono'] text-[11px] tracking-[2px] uppercase text-ink-soft">
