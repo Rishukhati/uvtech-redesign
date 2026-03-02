@@ -5,8 +5,10 @@
     --color-ink: #0D1B2A;
     --color-saffron: #E8650A;
     --color-cream: #FAF8F4;
+    --color-cream-d: #F2EFE9;
     --color-mist: #8FA5BB;
     --color-ink-soft: #4A6582;
+    --color-ink-mid: #1C3252;
     }
     @keyframes tickerScroll {
     from { transform: translateX(0); }
