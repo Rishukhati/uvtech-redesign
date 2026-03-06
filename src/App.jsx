@@ -7,6 +7,7 @@ import Services from "./components/Services"
 import Certifications from "./components/Certifications"
 import Projects from "./components/Projects"
 import Clients from "./components/Clients"
+import Contact from "./components/Contact"
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
       <Certifications />
       <Projects />
       <Clients />
+      <Contact />
     </>
   )
 }
