@@ -4,8 +4,9 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-brightgreen?style=for-the-badge&logo=netlify)](https://exquisite-centaur-5d7228.netlify.app)
 
-A complete redesign of UVTech Multiservices' website — from Figma prototype to production-ready React application.
+A complete redesign of UVTech Multiservices' website — from design concept to production-ready React application.
 
 ---
 
@@ -13,7 +14,7 @@ A complete redesign of UVTech Multiservices' website — from Figma prototype to
 
 During my internship at **UVTech Multiservices**, I was tasked with redesigning the company website to demonstrate my design and frontend development skills. Rather than just delivering mockups, I decided to take it further and **build the entire website from scratch**.
 
-This project showcases UI/UX design skills through Figma prototyping, frontend development using modern React patterns, responsive design with Tailwind CSS, and real-world problem solving for a business client.
+This project showcases UI/UX design thinking, frontend development using modern React patterns, and real-world problem solving for a business client.
 
 ---
 
@@ -21,8 +22,8 @@ This project showcases UI/UX design skills through Figma prototyping, frontend d
 
 - **React.js** — Component-based UI library
 - **Vite** — Fast build tool and development server
-- **Tailwind CSS** — Utility-first CSS framework
-- **Figma** — Design and prototyping
+- **Tailwind CSS v4** — Utility-first CSS framework
+- **Lucide React** — Icon library
 - **Git & GitHub** — Version control
 
 ---
@@ -32,25 +33,38 @@ This project showcases UI/UX design skills through Figma prototyping, frontend d
 ### Phase 1: Research & Planning
 - Analyzed the existing website and identified pain points
 - Researched competitor websites and industry trends
-- Defined user flows and key pages
+- Defined the visual direction and color system
 
-### Phase 2: Figma Prototyping
-- Created wireframes for all major pages
-- Designed high-fidelity mockups with brand colors
-- Built interactive prototype to test user flows
+### Phase 2: Design
+- Created two high-fidelity HTML/CSS design concepts
+- Selected the best concept based on brand fit and professionalism
+- Defined design tokens: typography, colors, spacing
 
 ### Phase 3: Development (Current)
-- Setting up React + Vite + Tailwind environment
-- Building reusable component architecture
-- Implementing responsive layouts
-- Adding interactivity and animations
+- Set up React + Vite + Tailwind CSS v4 environment
+- Built reusable component architecture
+- Implemented all major sections with pixel-accurate styling
+- Adding animations and polish
+
+---
+
+## Components Built
+
+- `NavBar` — Fixed navigation with logo, links, and CTA button
+- `Hero` — Full-width hero with stats panel
+- `Ticker` — Animated scrolling text strip
+- `About` — Company info with KPI grid
+- `Services` — Alternating feature rows for 4 services
+- `Certifications` — Table layout with hover interactions
+- `Projects` — 3-column card grid
+- `Clients` — Dual-row marquee animation
+- `Contact` — Dark section with form and contact info
+- `Footer` — 4-column footer with links and badges
+- `Button` — Reusable button with optional icon prop
 
 ---
 
 ## Getting Started
-
-To run this project locally:
-
 ```bash
 # Clone the repository
 git clone https://github.com/Rishukhati/uvtech-redesign.git
@@ -69,11 +83,39 @@ Then open `http://localhost:5173` in your browser.
 
 ---
 
-## Design Preview
+## Color System
 
-**Note:** The prototype includes placeholder content and is not the final version. It demonstrates the structure, layout, and interactions being built.
+| Token | Value | Usage |
+|-------|-------|-------|
+| `ink` | `#0D1B2A` | Primary dark, backgrounds |
+| `saffron` | `#E8650A` | Accent, highlights |
+| `cream` | `#FAF8F4` | Page background |
+| `cream-d` | `#F2EFE9` | Alternate sections |
+| `mist` | `#8FA5BB` | Muted text on dark |
+| `ink-soft` | `#4A6582` | Body text |
 
-Screenshots and Figma link coming soon.
+---
+
+## Development Roadmap
+
+**Completed:**
+- Project setup (React + Vite + Tailwind v4)
+- NavBar component
+- Hero section with stats card
+- Ticker animation strip
+- About section
+- Services section (4 feature rows)
+- Certifications section
+- Projects section
+- Clients marquee
+- Contact form
+- Footer
+
+**Upcoming:**
+- GSAP scroll animations
+- Responsive optimization
+- Performance optimization
+- Production deployment
 
 ---
 
@@ -82,52 +124,16 @@ Screenshots and Figma link coming soon.
 This project is helping me develop skills in:
 
 - **Component Architecture** — Breaking UI into reusable, maintainable pieces
-- **State Management** — Managing data flow in React applications
-- **Responsive Design** — Mobile-first approach using Tailwind utilities
-- **Design Systems** — Creating consistent UI patterns and components
-- **Client Communication** — Understanding and implementing business requirements
-- **Version Control** — Professional Git workflow and collaboration practices
-
----
-
-## Development Roadmap
-
-**Completed:**
-- Initial project setup
-- Figma design completion
-
-**In Progress:**
-- Header and navigation component
-- Hero section implementation
-- Component architecture planning
-
-**Upcoming:**
-- Services section
-- About section
-- Contact form with validation
-- Footer component
-- Responsive optimization
-- Performance optimization
-- Production deployment
-
----
-
-## Project Status
-
-**Current Phase:** Early Development
-
-This is a work in progress. Code is being pushed incrementally as features are developed and tested. The final deliverable will be a fully functional, production-ready website for UVTech Multiservices.
+- **Tailwind CSS v4** — Modern utility-first styling with custom design tokens
+- **Design Implementation** — Translating visual designs into precise code
+- **Client Work** — Understanding and implementing real business requirements
+- **Version Control** — Professional Git workflow
 
 ---
 
 ## About This Project
 
-This redesign is part of my internship at **UVTech Multiservices**. The project demonstrates my ability to take initiative beyond assigned tasks, balance design thinking with technical execution, deliver professional work for actual clients, and learn and adapt to new technologies.
-
-**Why I took this approach:**
-- Designing in Figma first helped me think through the user flow before writing any code
-- Building it in React provides hands-on experience with component architecture and state management
-- Using Tailwind CSS speeds up styling while maintaining consistency across the application
+This redesign is part of my internship at **UVTech Multiservices**. The project demonstrates my ability to take initiative beyond assigned tasks and deliver professional-quality frontend work for a real client.
 
 ---
 
@@ -139,7 +145,7 @@ This redesign is part of my internship at **UVTech Multiservices**. The project 
 
 ## License
 
-This project is being developed for UVTech Multiservices as part of an internship assignment.
+Developed for UVTech Multiservices as part of an internship assignment. Design concept is original work.
 
 ---
 
